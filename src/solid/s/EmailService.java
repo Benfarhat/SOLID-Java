@@ -16,8 +16,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class EmailService {
-    private final static String password = "6a69387c1fe118d19478ec72bb5043c6";
-    private final static String fromEmail = "fake.mail.for.dev@gmail.com";
+    private final static String password = "supersecretpassword";
+    private final static String fromEmail = "My.super.fake.mail.for.dev@gmail.com";
     
     public void sendEmail(EmailInfo emailInfo) {
         
